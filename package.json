@@ -5,12 +5,7 @@
   "main": "index.html",
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/calazans10/gulp-workflow.git"
-  },
-  "author": {
-    "name": "Jeferson Farias Calazans",
-    "email": "calazans10@gmail.com"
+    "type": "git"
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
