@@ -23,3 +23,4 @@
 
 1. How to set up your environment to get MICleaners up and running: https://www.taniarascia.com/getting-started-with-gulp/
 2. Styles, grid, etc is based on https://taniarascia.github.io/primitive/
+3. Design can be found here: https://zpl.io/261HwQ (Login with your Zeplin account)
