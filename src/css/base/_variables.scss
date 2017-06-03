@@ -1,0 +1,132 @@
+/* Variables
+ * ===============
+ *
+ * All variables and most of the configuration is defined on this page. */
+
+
+/* Containers */
+
+$x-small: 600px;
+$small: 800px;
+$medium: 1000px;
+$large: 1200px;
+
+/* Breakpoints */
+
+$mobile: $x-small;
+$desktop: $medium;
+
+/* Colors */
+
+$background: white;
+$primary-color: #001B32;
+$secondary-color: #00BED9;
+$accent-color: #FF9900;
+$alternate-background: #F4FBFE;
+$alternate-color: #A3B3BD;
+$link-color: $primary-color;
+$link-hover-color: darken($link-color, 15%);
+$highlight: #ffeea8;
+$error: #D33C40;
+$bq-border: 16px solid #f0f0f0;
+
+/* Typography */
+
+// Body font
+$font-size: 20px;
+$body-font-size: 20px;
+$font-style: normal;
+$font-variant: normal;
+$font-weight: 600;
+$font-color: #687782;
+$font-family: 'Nunito', sans-serif;
+$line-height: 1.5;
+
+// Headings
+$heading-font-color: #20272B;
+$heading-font-weight: 700;
+$heading-font-family: 'Nunito', sans-serif;
+$heading-line-height: 1.1;
+
+// Mobile heading font size
+$h1-mobile: 40px;
+$h2-mobile: 1.5rem;
+$h3-mobile: 1.25rem;
+$h4-mobile: 1.1rem;
+$h5-mobile: 1rem;
+
+// Heading font size
+$h1: 40px;
+$h2: 1.25rem;
+$h3: 1.125rem;
+$h4: 1rem;
+$h5: .75rem;
+
+/* Padding */
+
+$padding: 1rem;
+$margins: 1.5rem;
+$content-padding: 60px 0;
+$content-padding-mobile: 30px 0;
+
+/* Borders */
+
+$border-width: 1px;
+$border-style: solid;
+$border-color: #dedede;
+$border-radius: 30px 14px 30px 14px;
+$borders: $border-width $border-style $border-color;
+
+/* Buttons */
+
+$button-background: $secondary-color;
+$button-background-hover: darken($button-background, 10%);
+$button-color: #ffffff;
+$button-font-weight: 600;
+$button-font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$button-font-size: 18px;
+$button-border-width: 1px;
+$button-border-style: solid;
+$button-border-color: $button-background;
+$button-border-radius: 30px 14px 30px 14px;;
+$button-text-transform: none;
+
+
+// Accent buttons
+$accent-button-background: $secondary-color;
+$accent-button-color: #ffffff;
+$accent-button-color-hover: #ffffff;
+
+// Muted Buttons
+$muted-border: 1px solid $accent-color;
+$muted-border-hover: 1px solid darken($accent-color, 30%);
+$muted-background: transparent;
+$muted-background-hover: transparent;
+$muted-color: darken($accent-color, 50%);
+$muted-color-hover: darken($accent-color, 50%);
+
+// Round Buttons
+$round-buttons: 40px;
+
+/* Forms */
+
+$forms: ('[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea');
+$buttons: ('.button, a.button, button, [type=reset], [type=button]');
+$input-background: transparent;
+$placeholder: $background;
+$form-border: 1px solid #979797;
+$form-border-hover: 1px solid darken(#979797, 10%);
+$form-border-focus: 1px solid $secondary-color;
+
+/* Tables */
+
+$stripes: #f8f8f8;
+$caption: #ababab;
+
+/* Code */
+
+$code-color: $font-color;
+$code-size: 14px;
+$code-family: Menlo, monospace;
+$code-background: transparent;
+$code-borders: $borders;

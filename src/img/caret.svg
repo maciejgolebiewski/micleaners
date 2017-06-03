@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>caret</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Final-A" transform="translate(-778.000000, -439.000000)" fill="#FFFFFF">
+            <path d="M778.09375,439.78125 C778.03125,439.71875 778,439.625001 778,439.5 C778,439.354166 778.052083,439.234375 778.15625,439.140625 C778.260417,439.046875 778.385416,439 778.53125,439 L787.46875,439 C787.614584,439 787.739583,439.046875 787.84375,439.140625 C787.947917,439.234375 788,439.354166 788,439.5 C788,439.604167 787.96875,439.6875 787.90625,439.75 L787.84375,439.84375 L783.59375,444.71875 C783.406249,444.906251 783.208334,445 783,445 C782.791666,445 782.593751,444.906251 782.40625,444.71875 L778.15625,439.84375 L778.09375,439.78125 Z" id="caret"></path>
+        </g>
+    </g>
+</svg>
