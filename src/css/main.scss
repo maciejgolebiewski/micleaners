@@ -107,13 +107,13 @@
 
       &:hover {
     		.one {
-    			transform: rotate(0deg) translateX(30px);
+    			transform: rotate(0deg) translateX(30px) translateY(80px);
     		}
         .two {
-          transform: rotate(-5deg) translateX(0px) translateY(-50px);
+          transform: rotate(-5deg) translateX(0px) translateY(-80px);
         }
         .three {
-          transform: rotate(-10deg) translateX(-120px);
+          transform: rotate(-10deg) translateX(-120px) translateY(-120px);
         }
     	}
 
@@ -192,6 +192,20 @@
 
     }
 
+  }
+
+
+  main {
+
+    position: relative;
+    z-index: -1;
+
+    .half-hero {
+      background-image: url('/img/hero@2x.png');
+      background-repeat: no-repeat;
+      height: 782px;
+      background-size: cover;
+    }
   }
 
   @media screen and (min-width: 600px) {
