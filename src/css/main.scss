@@ -216,6 +216,11 @@
 
     .quote {
       background: $primary-color;
+      padding: 40px;
+
+      .vertical-center {
+        justify-content: left;
+      }
 
       .avatar {
         width: 70px;
@@ -226,6 +231,20 @@
         background-size: cover;
         background-image: url('/img/quote-avatar@2x.png');
         background-position: 0 -10px;
+        margin-right: 20px;
+      }
+
+      p {
+        color: $background;
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin: 0;
+
+        span {
+          font-weight: 400;
+          display: block;
+        }
       }
     }
 
