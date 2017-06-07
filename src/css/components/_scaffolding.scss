@@ -123,9 +123,10 @@ mark {
 // Blockquote
 blockquote {
 	margin: 0 0 $margins 0;
-	border-left: $bq-border;
-	padding: 0 1.5rem;
-	font-size: 1.5rem;
+	padding: 40px;
+	font-size: 20px;
+	line-height: 2;
+	color: $background;
 	cite {
 		display: block;
 		margin-top: $margins;
@@ -194,7 +195,7 @@ dd {
 	margin-bottom: .5rem;
 }
 
-// Full container 
+// Full container
 .full-container {
 	max-width: 100%;
 	padding: 0 1rem;

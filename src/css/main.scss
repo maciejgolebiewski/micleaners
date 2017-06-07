@@ -206,6 +206,43 @@
       height: 782px;
       background-size: cover;
     }
+
+    .background-hero {
+      background-image: url("/img/fullhero@2x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+    }
+
+    .quote {
+      background: $primary-color;
+
+      .avatar {
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        background-color: #eee;
+        border-radius: 35px;
+        background-size: cover;
+        background-image: url('/img/quote-avatar@2x.png');
+        background-position: 0 -10px;
+      }
+    }
+
+    h2 {
+      color: $font-color;
+      line-height:1.5;
+      font-weight: 600;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .points p {
+      font-size: 15px;
+      font-weight: 700;
+    }
   }
 
   @media screen and (min-width: 600px) {
@@ -220,6 +257,19 @@
 
   footer {
     font-size: .9rem;
+    background: url('/img/wave.svg');
+    background-size: cover;
+
+    .brand {
+      padding: 60px 0 10px 0;
+      display: inline-block;
+    }
+
+    a {
+      color: $background;
+      font-size: 15px;
+      text-decoration: underline;
+    }
   }
 
 
